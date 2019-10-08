@@ -1,4 +1,4 @@
-# Unix Comamnd Helper List
+# Unix Command Helper List
 	
 ### Find in Unix file
 ```
