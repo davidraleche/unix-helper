@@ -30,12 +30,16 @@ du -skh .
 
 ```
 
+### Linux Iptables Setup Firewall For a Web Server
+https://www.cyberciti.biz/faq/linux-web-server-firewall-tutorial/
+
+### yum list isntalled packaged
 ```
  yum list installed
 ```
 
 
-Clam Antivirus
+### Clam Antivirus
 yum install clamav
 yum-complete-transaction --cleanup-only
  /etc/init.d/iptables restart
@@ -49,6 +53,12 @@ yum-complete-transaction --cleanup-only
    ps -ef
    
    vim notrace.conf 
+
+##  IPTraf │ An IP Network Statistics Utility 
+```
+yum install iptraf
+iptraf 
+```
 
 ```
 1009  rm -f error_log-2019*
