@@ -30,6 +30,11 @@ du -skh .
 
 ```
 
+```
+ yum list installed
+```
+
+
 Clam Antivirus
 yum install clamav
 yum-complete-transaction --cleanup-only
