@@ -30,6 +30,20 @@ du -skh .
 
 ```
 
+Clam Antivirus
+yum install clamav
+yum-complete-transaction --cleanup-only
+ /etc/init.d/iptables restart
+ 
+ tail -f /var/log/httpd/access_log
+ vim /etc/fail2ban/jail.conf 
+ /etc/init.d/fail2ban start
+  vim /etc/fail2ban/jail.conf 
+   yum install fail2ban
+   
+   ps -ef
+   
+   vim notrace.conf 
 
 ```
 1009  rm -f error_log-2019*
