@@ -1,5 +1,19 @@
 # Unix Command Helper List
-	
+
+
+Block IPV6 
+```
+ vi /etc/sysconfig/ip6tables
+ ```
+ 
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 443 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+                                                                 
+ 
+ service ip6tables restart
+ iptables restart
+ ```
 ### Find in Unix file
 ```
 find . -type f -name "*.*" -exec grep -il "YOUR TEXT" {} \;
