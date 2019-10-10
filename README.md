@@ -81,42 +81,41 @@ iptraf
 
 ```
 
- 1011  yum install iptraf
- 1012  iptraf 
- 1013  ps -ef
- 1014  ps -ef |less
- 1015  service httpd stop
- 1016  netstat -natu
- 1017  netstat -pnatu
- 1018  netstat -patu
- 1019  netstat -patu |less
- 1020  ps -ef
+   yum install iptraf
+   iptraf 
+   ps -ef
+   ps -ef |less
+   service httpd stop
+   netstat -natu
+   netstat -pnatu
+   netstat -patu
+   netstat -patu |less
+   ps -ef
 ```
 
 ```
- 1029 yum install chkroo
- 1030  chkrootkit 
- 1031  yum search anti
- 1032  iptraf
- 1033  ps -ef | grep httpd
- 1034  ps -ef
- 1035  ps -aux
+  yum install chkroo
+   chkrootkit 
+   yum search anti
+   iptraf
+   ps -ef | grep httpd
+   ps -ef
+   ps -aux
 ```
 
 ```
-1037  yum install htop
- 1038  yum install perf
- 1039  perf
- 1040  perf stat
- 1041  ps -ef
- 1042  strace -p 4322
- 1043  yum -y  install strace
- 1044  strace -p 4322
- 1045  yum -y  install strace
- 1046  ps -ef
- 1047  strace -p 4522
- 1048  tail -f /var/log/httpd/error_log 
-
+  yum install htop
+   yum install perf
+   perf
+   perf stat
+   ps -ef
+   strace -p 4322
+   yum -y  install strace
+   strace -p 4322
+   yum -y  install strace
+   ps -ef
+   strace -p 4522
+   tail -f /var/log/httpd/error_log 
 
 ```
 
