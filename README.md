@@ -31,6 +31,9 @@ find .//. ! -name . -print | grep -c //
 cat file.php
 ```
 
+### hacker helper
+https://dfarq.homeip.net/find-php-malware-linux/?cn-reloaded=1
+
 
 ### tail
 ```
