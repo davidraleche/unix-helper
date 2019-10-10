@@ -1,7 +1,7 @@
 # Unix Command Helper List
 
 
-Block IPV6 
+Block IPV6 malicious connection
 ```
  vi /etc/sysconfig/ip6tables
  ```
