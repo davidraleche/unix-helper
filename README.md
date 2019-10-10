@@ -123,87 +123,87 @@ iptraf
 ```
 netstat -pvat
 
-  660  netstat -pvat
-  661  ls
-  662  vim functions.php
-  663  netstat -pvat
-  664  tail -f /var/log/httpd/access_log
-  665  tail -f /var/log/httpd/error_log 
-  666  df
-  667  du -skh
-  668  df
-  669  cd /var/log/
-  670  ls
-  671  df 
-  672  du -skh
-  673  du -skh *
-  674  cd httpd/
-  675  du -skh *
-  676  ls -la
-  677  rm error_log 
-  678  df 
-  679  df 
-  680  touch error_log
-  681  /etc/init.d/httpd restart
-  682  tail -f /var/log/httpd/error_log 
-  683  tail -f /var/log/httpd/access_log
-  684  tail -f /var/log/httpd/access_log
-  685  vin /etc/httpd/conf/httpd.conf
-  686  vim /etc/httpd/conf/httpd.conf
-  687  vim /etc/httpd/conf/httpd.conf
-  688  vim /etc/httpd/conf.modules.d/
-  689  vim /etc/httpd/conf.modules.d/00-proxy.conf 
-  690  vim /etc/httpd/conf.modules.d/00-proxy.conf 
-  691  /etc/init.d/httpd stop
-  692  netstat -pvat
-  693  netstat -pvatu
-  694  /etc/init.d/httpd start
+    netstat -pvat
+    ls
+    vim functions.php
+    netstat -pvat
+    tail -f /var/log/httpd/access_log
+    tail -f /var/log/httpd/error_log 
+    df
+    du -skh
+    df
+    cd /var/log/
+    ls
+    df 
+  du -skh
+    du -skh *
+    cd httpd/
+    du -skh *
+    ls -la
+    rm error_log 
+    df 
+    df 
+    touch error_log
+    /etc/init.d/httpd restart
+    tail -f /var/log/httpd/error_log 
+    tail -f /var/log/httpd/access_log
+    tail -f /var/log/httpd/access_log
+    vin /etc/httpd/conf/httpd.conf
+    vim /etc/httpd/conf/httpd.conf
+    vim /etc/httpd/conf/httpd.conf
+    vim /etc/httpd/conf.modules.d/
+    vim /etc/httpd/conf.modules.d/00-proxy.conf 
+    vim /etc/httpd/conf.modules.d/00-proxy.conf 
+    /etc/init.d/httpd stop
+    netstat -pvat
+    netstat -pvatu
+    /etc/init.d/httpd start
 
 ```
 
 
 ```
-  767  yum search ban
-  768  yum install fail2ban
-  769  vim /etc/fail2ban/jail.
-  770  vim /etc/fail2ban/jail.conf 
-  771  /etc/init.d/fail2ban start
-  772  vim /etc/fail2ban/jail.conf 
-  773  lsof |grep fail
-  774  tail -f /var/log/httpd/access_log
-  775  /etc/init.d/iptables restart
-  776  tail -f /var/log/httpd/access_log
-  777  yum install clamav
-  778  yum-complete-transaction --cleanup-only
-  779  clamscan /vol/www/aptnewyork/
-  780  freshclam 
-  781  clamscan /vol/www/aptnewyork/
-  782  clamscan /vol/www/aptnewyork/en
-  783  clamscan -r /vol/www/aptnewyork/en
-  784  clamscan -r /vol/www/aptnewyork/
-  785  history
-  786  clamscan -h
+    yum search ban
+    yum install fail2ban
+    vim /etc/fail2ban/jail.
+    vim /etc/fail2ban/jail.conf 
+    /etc/init.d/fail2ban start
+    vim /etc/fail2ban/jail.conf 
+    lsof |grep fail
+    tail -f /var/log/httpd/access_log
+    /etc/init.d/iptables restart
+    tail -f /var/log/httpd/access_log
+    yum install clamav
+  yum-complete-transaction --cleanup-only
+    clamscan /vol/www/aptnewyork/
+    freshclam 
+    clamscan /vol/www/aptnewyork/
+    clamscan /vol/www/aptnewyork/en
+    clamscan -r /vol/www/aptnewyork/en
+    clamscan -r /vol/www/aptnewyork/
+    history
+    clamscan -h
 ```
 
 ### unix command Find word in files
 ```
-  813   find . -type f -name "*.*" -exec grep -il "parse" {} \;
-  814  vim /vol/www/aptnewyork/includes/parseRSS.php
-  815   find . -type f -name "*.*" -exec grep -il "parseRSS.php" {} \;
-  816  cd /vol/www/
-  817  ls
-  818  cd aptnewyork/
-  819   find . -type f -name "*.*" -exec grep -il "parseRSS.php" {} \;
-  820  cd en
-  821   find . -type f -name "*.*" -exec grep -il "parseRSS.php" {} \;
+     find . -type f -name "*.*" -exec grep -il "parse" {} \;
+    vim /vol/www/aptnewyork/includes/parseRSS.php
+     find . -type f -name "*.*" -exec grep -il "parseRSS.php" {} \;
+    cd /vol/www/
+    ls
+    cd aptnewyork/
+     find . -type f -name "*.*" -exec grep -il "parseRSS.php" {} \;
+    cd en
+     find . -type f -name "*.*" -exec grep -il "parseRSS.php" {} \;
   ```
   
   ### Check yum installed modules
   ```
-  901  yum list installed
-  902  yum list installed | grep proxy
-  903  yum list installed | grep 'proxy'
-  904  yum list installed
+    yum list installed
+    yum list installed | grep proxy
+    yum list installed | grep 'proxy'
+    yum list installed
 ```
 ### khunter (Rootkit Hunter) is a Unix-based tool that scans for rootkits, backdoors and possible local exploits. It does this by comparing SHA-1 hashes of important files with known good ones in online databases, searching for default directories (of rootkits), wrong permissions, hidden files, suspicious strings in kernel modules, and special tests for Linux and FreeBSD. rkhunter is notable due to its inclusion in popular operating systems (Fedora,[1] Debian,[2] etc.)
 
