@@ -35,6 +35,10 @@ cat file.php
 https://dfarq.homeip.net/find-php-malware-linux/?cn-reloaded=1
 
 
+### LINUX Command = Better/Faster than SCP -> Rsync
+rsync -av --progress --inplace --compress toot@toto.com:/path/to/sourceserver /path/to/newserversirectory
+
+
 ### tail
 ```
 tail -n 20 xxx.php
