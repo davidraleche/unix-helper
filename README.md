@@ -32,17 +32,6 @@ chkconfig --list httpd
 
 
 
-### Start the Apache web server.
-
-[ec2-user ~]$ sudo systemctl start httpd
-
-### Use the systemctl command to configure the Apache web server to start at each system boot.
-
-[ec2-user ~]$ sudo systemctl enable httpd
-
-### You can verify that httpd is on by running the following command:
-
-[ec2-user ~]$ sudo systemctl is-enabled httpd
 
 
 
