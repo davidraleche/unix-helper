@@ -29,12 +29,6 @@ chkconfig --list httpd
  cat /etc/system-release
    ```                     
 
-
-
-
-
-
-
 ### Count number of files in unix directory
 ```
 find .//. ! -name . -print | grep -c //
@@ -50,8 +44,9 @@ https://dfarq.homeip.net/find-php-malware-linux/?cn-reloaded=1
 
 
 ### LINUX Command = Better/Faster than SCP -> Rsync
+```
 rsync -av --progress --inplace --compress toot@toto.com:/path/to/sourceserver /path/to/newserversirectory
-
+```
 
 ### tail
 ```
