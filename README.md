@@ -21,6 +21,13 @@ Block IPV6 malicious connection
 find . -type f -name "*.*" -exec grep -il "YOUR TEXT" {} \;
 ```
 
+### aws package release 
+```
+ sudo chkconfig httpd on
+ 
+ cat /etc/system-release
+   ```                     
+
 ### Count number of files in unix directory
 ```
 find .//. ! -name . -print | grep -c //
