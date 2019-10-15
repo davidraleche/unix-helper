@@ -16,7 +16,7 @@ Block IPV6 malicious connection
  service ip6tables restart
  iptables restart
  ```
-### Find in Unix file
+### Find a specific word in Unix file
 ```
 find . -type f -name "*.*" -exec grep -il "YOUR TEXT" {} \;
 ```
