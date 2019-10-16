@@ -48,6 +48,11 @@ https://dfarq.homeip.net/find-php-malware-linux/?cn-reloaded=1
 rsync -av --progress --inplace --compress toot@toto.com:/path/to/sourceserver /path/to/newserversirectory
 ```
 
+### Copy as is - rsync with aws key
+```
+rsync -avz -e "ssh -i /root/xxxxxx.pem" ec2-user@xxxxxx.com:/var/www/ /var/www/copywww/
+```
+
 ### tail
 ```
 tail -n 20 xxx.php
